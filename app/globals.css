@@ -8,15 +8,17 @@
   --font-jakarta: 'Plus Jakarta Sans', system-ui, sans-serif;
 }
 
-@layer base {
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    background-color: #FAFAF8;
-    color: #1E1D1B;
-    font-family: var(--font-jakarta);
-    overflow-x: hidden;
-  }
+* { box-sizing: border-box; }
+
+html { 
+  scroll-behavior: smooth; 
+}
+
+body {
+  background-color: #FAFAF8;
+  color: #1E1D1B;
+  font-family: var(--font-jakarta);
+  overflow-x: hidden;
 }
 
 /* ── Scroll progress bar ─────────────────── */
