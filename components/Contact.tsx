@@ -1,3 +1,5 @@
+"use client";
+
 import { MapPin, Mail, Phone, Instagram, MessageCircle } from "lucide-react";
 
 const info = [
